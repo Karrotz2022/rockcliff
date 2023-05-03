@@ -119,7 +119,7 @@ a {
 @media screen and (max-width: 768px) {
     
     .header {
-        height: 3vh;
+        height: 80px;
         width: 100%;
         overflow-x: hidden;
     }
@@ -131,8 +131,13 @@ a {
         object-fit: cover;
     }
 
+    .container {
+        height: auto;
+    }
+
     .button {
         margin: 10px 0 10px 0;
+        width: 80vw;
     }
     
     .disclamer {
