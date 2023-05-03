@@ -138,16 +138,22 @@ a {
     .button {
         margin: 10px 0 10px 0;
         width: 80vw;
+        height: 50px;
     }
     
     .disclamer {
         padding: 10px 2vw 5px 2vw;
         height: 50vh;
+        font-size: .8rem;
     }
 
     .footer {
-        padding: 10px 0 10px 0;
-        height: 10vh;
+        padding: 5px 0 5px 0;
+        height: 100px;
+    }
+
+    .footer p {
+        padding: 5px 0 5px 0;
     }
 
 }
