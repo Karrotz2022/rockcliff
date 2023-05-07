@@ -10,6 +10,16 @@
         gtag('js', new Date());
 
         gtag('config', 'G-45FBDM7M57');
+    // <!-- Variable for clicks -->
+var LinkClicked = function(url) {
+    gtag('event', 'OurNewEvent2022', {
+        'event_category': 'OurNewEvent2022',
+        'event_label': url,
+        'transport_type': 'beacon',
+        'event_callback': function() {document.location = url;}
+    });
+};
+
     </script>
 
     <!-- Google Tag Manager -->
